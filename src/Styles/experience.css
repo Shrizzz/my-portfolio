@@ -1,0 +1,47 @@
+.ExperienceSection {
+  margin: 4rem 0;
+}
+
+.experi-img {
+  width: 70%;
+}
+
+.experience {
+  width: 95%;
+  background-color: #191d28;
+  border-left: 1px solid #2e344e;
+  border-right: 1px solid #2e344e;
+  border-bottom: 1px solid #2e344e;
+  border-top: 8px solid #2e344e;
+  transition: all 0.4s ease-in-out;
+}
+
+.experience:hover {
+  border-top: 8px solid #037fff;
+}
+
+.experience-content {
+  padding: 2rem;
+}
+
+.experience-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.aftereffect {
+  content: "";
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 3px;
+  background-color: #2e344e;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+}
